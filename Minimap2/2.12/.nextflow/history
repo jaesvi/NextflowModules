@@ -1,0 +1,11 @@
+2020-09-04 16:46:44	-	zen_hypatia	-	0f184d6a9c9f1dcf1aa4cf93327d4268	c130d5d8-7a64-475b-975f-0c4d4488c03e	nextflow run Mapping.nf
+2020-09-04 16:54:21	-	jovial_sax	-	c0e872c6f6115842e4729e78a8049b17	06a3e37b-0fa0-4342-8027-0cc309911061	nextflow run Mapping.nf
+2020-09-04 16:56:26	-	disturbed_sanger	-	2fd439638269e76d6e6ca1a872ae5fb8	224152d0-2cc4-413b-8d2e-70ba31bd80b0	nextflow run Mapping.nf
+2020-09-04 16:58:52	-	tender_kare	-	639daba2802e789e932b0cb865232882	5fa907b2-bdee-4cc1-99e0-d4037b669277	nextflow run Mapping.nf --fastq /home/jvalleinclan/work/sharc/test_data/fastq_0.fastq --sample_id test_sid --rg_id test_rgid
+2020-09-04 17:02:08	-	boring_nobel	-	7a8b493a8aeb3f2d9769b277d1d291da	3f1b2080-4eb2-4659-9f12-f80472fdd2b0	nextflow run Mapping.nf --fastq /home/jvalleinclan/work/sharc/test_data/fastq_0.fastq --sample_id test_sid --rg_id test_rgid
+2020-09-04 17:02:52	-	sleepy_williams	-	cb2bf29cd8ae752d7343ea55e71dff64	10c01128-6bdb-4bb2-9f14-5b3e2cbc34bc	nextflow run Mapping.nf --fastq /home/jvalleinclan/work/sharc/test_data/fastq_0.fastq --sample_id test_sid --rg_id test_rgid
+2020-09-04 17:03:06	-	big_bell	-	cb2bf29cd8ae752d7343ea55e71dff64	a92f70a9-8f1d-4369-a928-d7df0044e7ef	nextflow run Mapping.nf
+2020-09-04 17:03:16	-	furious_hodgkin	-	ba7da2129a4e9069698718a191922793	d6d49ab5-29ee-47a1-8da7-34c65f65f87c	nextflow run Mapping.nf
+2020-09-04 17:06:29	-	mighty_cantor	-	9e38d2e208f5588c33b4b912bb2beef5	eb6d10a0-576a-40f9-a582-6343b7ab3c4d	nextflow run Mapping.nf
+2020-09-04 17:07:37	-	nice_fourier	-	672365695efab9e77cac936e47584796	168d3cc8-0d18-47d7-922b-b53269120be9	nextflow run Mapping.nf
+2020-09-04 17:07:44	-	serene_borg	-	672365695efab9e77cac936e47584796	cc8ed619-25c8-47b9-8a9c-030de896afb1	nextflow run Mapping.nf

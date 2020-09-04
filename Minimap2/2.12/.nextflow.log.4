@@ -1,0 +1,78 @@
+Sep-04 17:03:06.432 [main] DEBUG nextflow.cli.Launcher - $> nextflow run Mapping.nf
+Sep-04 17:03:06.644 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 20.07.1
+Sep-04 17:03:06.663 [main] INFO  nextflow.cli.CmdRun - Launching `Mapping.nf` [big_bell] - revision: cb2bf29cd8
+Sep-04 17:03:06.841 [main] DEBUG nextflow.Session - Session uuid: a92f70a9-8f1d-4369-a928-d7df0044e7ef
+Sep-04 17:03:06.841 [main] DEBUG nextflow.Session - Run name: big_bell
+Sep-04 17:03:06.845 [main] DEBUG nextflow.Session - Executor pool size: 8
+Sep-04 17:03:06.911 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 20.07.1 build 5412
+  Created: 24-07-2020 15:18 UTC (17:18 CEST)
+  System: Linux 5.4.0-45-generic
+  Runtime: Groovy 2.5.11 on OpenJDK 64-Bit Server VM 11.0.8+10-post-Ubuntu-0ubuntu120.04
+  Encoding: UTF-8 (UTF-8)
+  Process: 51657@vweg [127.0.1.1]
+  CPUs: 8 - Mem: 7.7 GB (1.5 GB) - Swap: 1 GB (1 GB)
+Sep-04 17:03:06.955 [main] DEBUG nextflow.Session - Work-dir: /home/jvalleinclan/work/sharc/NextflowModules/Minimap2/2.12/work [ext2/ext3]
+Sep-04 17:03:06.956 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/jvalleinclan/work/sharc/NextflowModules/Minimap2/2.12/bin
+Sep-04 17:03:07.064 [main] DEBUG nextflow.Session - Observer factory: TowerFactory
+Sep-04 17:03:07.068 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Sep-04 17:03:07.328 [main] DEBUG nextflow.Session - Session start invoked
+Sep-04 17:03:08.039 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Sep-04 17:03:08.057 [main] DEBUG nextflow.Session - Workflow process names [dsl1]: Minimap2Mapping
+Sep-04 17:03:08.154 [main] DEBUG nextflow.Session - Session aborted -- Cause: Unknown variable 'query_ch'
+Sep-04 17:03:08.166 [main] ERROR nextflow.cli.Launcher - @unknown
+groovy.lang.MissingPropertyException: Unknown variable 'query_ch'
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:265)
+	at nextflow.script.ProcessConfig.getProperty(ProcessConfig.groovy:273)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:190)
+	at groovy.lang.Closure.getPropertyTryThese(Closure.java:313)
+	at groovy.lang.Closure.getPropertyDelegateFirst(Closure.java:303)
+	at groovy.lang.Closure.getProperty(Closure.java:288)
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:309)
+	at Script_6f6bde3b$_runScript_closure1.doCall(Script_6f6bde3b:14)
+	at Script_6f6bde3b$_runScript_closure1.doCall(Script_6f6bde3b)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:263)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)
+	at groovy.lang.Closure.call(Closure.java:405)
+	at groovy.lang.Closure.call(Closure.java:399)
+	at nextflow.script.ProcessFactory.createProcessor(ProcessFactory.groovy:95)
+	at nextflow.script.ProcessFactory$createProcessor.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:115)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:135)
+	at nextflow.script.BaseScript.process(BaseScript.groovy:115)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:156)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:176)
+	at Script_6f6bde3b.runScript(Script_6f6bde3b:6)
+	at nextflow.script.BaseScript.runDsl1(BaseScript.groovy:164)
+	at nextflow.script.BaseScript.run(BaseScript.groovy:200)
+	at nextflow.script.ScriptParser.runScript(ScriptParser.groovy:219)
+	at nextflow.script.ScriptRunner.run(ScriptRunner.groovy:219)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:127)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:274)
+	at nextflow.cli.Launcher.run(Launcher.groovy:466)
+	at nextflow.cli.Launcher.main(Launcher.groovy:648)

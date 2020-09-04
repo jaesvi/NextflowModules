@@ -1,0 +1,40 @@
+Sep-04 17:02:07.838 [main] DEBUG nextflow.cli.Launcher - $> nextflow run Mapping.nf --fastq /home/jvalleinclan/work/sharc/test_data/fastq_0.fastq --sample_id test_sid --rg_id test_rgid
+Sep-04 17:02:08.015 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 20.07.1
+Sep-04 17:02:08.035 [main] INFO  nextflow.cli.CmdRun - Launching `Mapping.nf` [boring_nobel] - revision: 7a8b493a8a
+Sep-04 17:02:08.196 [main] DEBUG nextflow.Session - Session uuid: 3f1b2080-4eb2-4659-9f12-f80472fdd2b0
+Sep-04 17:02:08.197 [main] DEBUG nextflow.Session - Run name: boring_nobel
+Sep-04 17:02:08.199 [main] DEBUG nextflow.Session - Executor pool size: 8
+Sep-04 17:02:08.243 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 20.07.1 build 5412
+  Created: 24-07-2020 15:18 UTC (17:18 CEST)
+  System: Linux 5.4.0-45-generic
+  Runtime: Groovy 2.5.11 on OpenJDK 64-Bit Server VM 11.0.8+10-post-Ubuntu-0ubuntu120.04
+  Encoding: UTF-8 (UTF-8)
+  Process: 51473@vweg [127.0.1.1]
+  CPUs: 8 - Mem: 7.7 GB (1.5 GB) - Swap: 1 GB (1 GB)
+Sep-04 17:02:08.284 [main] DEBUG nextflow.Session - Work-dir: /home/jvalleinclan/work/sharc/NextflowModules/Minimap2/2.12/work [ext2/ext3]
+Sep-04 17:02:08.285 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/jvalleinclan/work/sharc/NextflowModules/Minimap2/2.12/bin
+Sep-04 17:02:08.364 [main] DEBUG nextflow.Session - Observer factory: TowerFactory
+Sep-04 17:02:08.368 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Sep-04 17:02:08.695 [main] DEBUG nextflow.Session - Session start invoked
+Sep-04 17:02:09.258 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Sep-04 17:02:09.275 [main] DEBUG nextflow.Session - Workflow process names [dsl1]: Minimap2Mapping
+Sep-04 17:02:09.278 [main] WARN  nextflow.script.ScriptBinding - Access to undefined parameter `query` -- Initialise it to a default value eg. `params.query = some_value`
+Sep-04 17:02:09.298 [main] DEBUG nextflow.Session - Session aborted -- Cause: Missing `fromPath` parameter
+Sep-04 17:02:09.310 [main] DEBUG nextflow.cli.Launcher - Operation aborted
+nextflow.exception.AbortOperationException: Missing `fromPath` parameter
+	at nextflow.Channel.fromPath(Channel.groovy:253)
+	at nextflow.Channel.fromPath(Channel.groovy)
+	at nextflow.Channel$fromPath.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:115)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:127)
+	at Script_d56f191c.runScript(Script_d56f191c:5)
+	at nextflow.script.BaseScript.runDsl1(BaseScript.groovy:164)
+	at nextflow.script.BaseScript.run(BaseScript.groovy:200)
+	at nextflow.script.ScriptParser.runScript(ScriptParser.groovy:219)
+	at nextflow.script.ScriptRunner.run(ScriptRunner.groovy:219)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:127)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:274)
+	at nextflow.cli.Launcher.run(Launcher.groovy:466)
+	at nextflow.cli.Launcher.main(Launcher.groovy:648)
